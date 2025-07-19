@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kisan Drishti - Smart Eyes for Smarter Farming</title>
+    <link rel="icon" type="image/png" href="assets/logoweb.png">
+<link rel="shortcut icon" href="assets/logoweb.png" type="image/x-icon">
+
+    <!-- Add Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+   
+
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="logo">
+      <span>Kisan Drishti</span>
+    </div>
+
+    <div class="nav-buttons" id="navButtons">
+      <a href="#features" class="nav-btn">Features</a>
+      <a href="#how-it-works" class="nav-btn">How It Works</a>
+      <a href="#about" class="nav-btn">About Us</a>
+      <a href="#contact" class="nav-btn">Contact</a>
+    </div>
+  </div>
+</nav>
+
+
+    <section class="hero">
+        <div class="hero-background">
+            <!-- <video class="hero-video" autoplay muted loop playsinline poster="assets/hero_poster.jpg">
+                <source src="assets/hero_video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video> -->
+             <div class="hero-image" style="background-image: url('assets/cabbage\ field.png');"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-shapes">
+            <div class="shape circle"></div> <div class="shape square"></div> <div class="shape triangle"></div>
+            <div class="shape circle"></div> <div class="shape square"></div> <div class="shape circle"></div>
+        </div>
+        <div class="particles" id="particles-js-hero"></div>
+        <div class="hero-content">
+            <h1><span class="company-name">Kisan Drishti</span> – Smart Eyes for Smarter Farming</h1>
+            <h2>Empowering farmers and inspiring the next generation with tech-driven tools and insights for modern agriculture.</h2>
+            <div class="hero-cta">
+                <a href="#contact" class="cta-btn">Get Started</a>
+                <a href="#features" class="cta-btn secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+            <div class="scroll-text">Scroll</div>
+        </div>
+        <div class="media-controls">
+            <button class="control-btn" id="playPauseBtn" title="Play/Pause">⏸️</button>
+            <button class="control-btn" id="muteBtn" title="Mute/Unmute">🔊</button>
+        </div>
+    </section>
+
+    <div class="grass-divider"></div>
+
+    <section class="features" id="features">
+        <h2>Smart Insights, Simpler Decisions</h2>
+        <div class="feature-card animate-on-scroll">
+            <div class="feature-image">
+                <div class="feature-image-placeholder"><img class="fas fa-seedling" src="assets/Soil Nutrient Intelligence.png" height="150%" width="150%" alt="Crop Advisory"></img></div>
+            </div>
+            <div class="feature-content">
+                <h3><i class="fas fa-leaf"></i> Crop Advisory</h3>
+                <p>Personalized recommendations based on your soil, weather, and region. Get expert advice tailored to your specific farming conditions for optimal crop yield.</p>
+            </div>
+        </div>
+        <div class="feature-card animate-on-scroll">
+            <div class="feature-image">
+                <div class="feature-image-placeholder"><img class="fas fa-seedling" src="assets/weaterforcast.png" height="150%" width="150%" alt="Weather Forecasting"></img></div>
+            </div>
+            <div class="feature-content">
+                <h3><i class="fas fa-temperature-half"></i> Weather Forecasting</h3>
+                <p>Hyperlocal and timely alerts to plan watering, sowing, and harvests. Stay ahead of weather changes with precise, location-specific forecasts.</p>
+            </div>
+        </div>
+        <div class="feature-card animate-on-scroll">
+            <div class="feature-image">
+                <div class="feature-image-placeholder"><img class="fas fa-seedling" src="assets/marketintelligence.png" height="150%" width="150%" alt="Market Intelligence"></img></div>
+            </div>
+            <div class="feature-content">
+                <h3><i class="fas fa-rupee-sign"></i> Market Intelligence</h3>
+                <p>Get pricing trends and best marketplaces to sell your produce profitably. Make informed decisions about when and where to sell for maximum returns.</p>
+            </div>
+        </div>
+        <div class="feature-card animate-on-scroll">
+            <div class="feature-image">
+                <div class="feature-image-placeholder"><img class="fas fa-seedling" src="assets/Healthy_Crop_Grapevine_Leaf_Uninfected_Label.png" height="150%" width="150%" alt="Weather Forecasting"></img></div>
+            </div>
+            <div class="feature-content">
+                <h3><i class="fas fa-disease"></i> Disease Detection (Coming Soon)</h3>
+                <p>Snap a photo of a diseased plant and receive instant diagnosis + treatment suggestions. AI-powered plant health monitoring at your fingertips.</p>
+            </div>
+        </div>
+        <div class="feature-card animate-on-scroll">
+            <div class="feature-image">
+                <div class="feature-image-placeholder"><img class="fas fa-seedling" src="assets/settelite.png".png" height="180%" width="150%" alt="Weather Forecasting"></img></div>
+            </div>
+            <div class="feature-content">
+                <h3><i class="fas fa-satellite"></i> Satellite Monitoring</h3>
+                <p>Monitor crop health, field stress, and productivity remotely with satellite insights. Get a bird's eye view of your fields anytime, anywhere.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="grass-divider"></div>
+    
+    <section class="project-impact animate-on-scroll">
+        <h2>Our Platform's Impact</h2>
+        <div class="impact-container">
+            <div class="impact-card">
+                <i class="fas fa-tractor"></i>
+                <div class="counter" data-target="1500 ">0</div>
+                <h4>Projected Farmers Imapact</h4>
+            </div>
+            <div class="impact-card">
+                <i class="fas fa-graduation-cap"></i>
+                <div class="counter" data-target="500">0</div>
+                <h4>Potential Youth Participants</h4>
+            </div>
+            <div class="impact-card">
+                <i class="fas fa-chart-pie"></i>
+                <div class="counter" data-target="25">0</div>
+                <h4>Expected Yield Boost (%)</h4>
+            </div>
+             <div class="impact-card">
+                <i class="fas fa-hand-holding-water"></i>
+                <div class="counter" data-target="30">0</div>
+                <h4> Estimated Water Saving (%)</h4>
+            </div>
+            <div class="impact-card">
+                <i class="fas fa-seedling"></i>
+                <div class="counter" data-target="15">0</div>
+                <h4> Modelled Soil Index Uplift (%)</h4>
+            </div>
+             <div class="impact-card">
+                <i class="fas fa-desktop"></i>
+                <div class="counter" data-target="95">0</div>
+                <h4> AI Advisory Precision (%)</h4>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="grass-divider"></div>
+
+    <section class="youth-section">
+        <div class="youth-container">
+            <h2><i class="fas fa-users"></i> Built for Youth Too</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 2rem; max-width:700px; margin-left:auto; margin-right:auto; opacity:0.9;">Farming is the future — and youth are the drivers. Kisan Drishti is also for students and innovators curious about agri-tech and modern careers in agriculture.</p>
+            <div class="youth-content">
+                <div class="youth-card animate-on-scroll">
+                    <h3><i class="fas fa-rocket"></i> Agri-Career Awareness</h3>
+                    <p>Learn how agriculture is evolving and explore future opportunities in this tech-driven field.</p>
+                </div>
+                <div class="youth-card animate-on-scroll">
+                    <h3><i class="fas fa-laptop-code"></i> Tech-first Exposure</h3>
+                    <p>Interact with AI, remote sensing, and data-based decision-making in real agricultural scenarios.</p>
+                </div>
+                <div class="youth-card animate-on-scroll">
+                    <h3><i class="fas fa-hands-helping"></i> Youth Engagement (Coming Soon)</h3>
+                    <p>Join pilot projects, research, or internships aligned with rural innovation and sustainable farming.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="grass-divider"></div>
+
+    <section class="app-screenshots">
+        <div class="app-container">
+            <h2 style="
+  background: linear-gradient(45deg, #4CAF50, #F9F9F9, #795548, #2F80ED, #333333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+">
+  <i class="fas fa-mobile-alt"></i> Sneak Peek – Our App
+</h2>
+
+
+            <p>We're creating a mobile-first platform that's easy to use, even in low-network zones. Intuitive, insightful, and always by your side.</p>
+            <div class="phone-mockup">
+                <div class="phone-container">
+                    <div class="phone-screen">
+                        <div class="phone-shine"></div>
+                        <div class="screen-content">
+                            <div class="notification-bar"><i class="fas fa-bell"></i> New crop advisory available!</div>
+                            <div class="app-header">
+                                <div class="app-logo">KD</div>
+                                <h3>Kisan Drishti</h3>
+                                <p style="font-size: 0.7rem; opacity: 0.85; text-transform:uppercase; letter-spacing: 0.5px;">Smart Agriculture Companion</p>
+                            </div>
+                            <div class="app-features">
+                                <div class="app-feature-icon"><i class="fas fa-seedling"></i><span>Advisory</span></div>
+                                <div class="app-feature-icon"><i class="fas fa-cloud-sun"></i><span>Weather</span></div>
+                                <div class="app-feature-icon"><i class="fas fa-tags"></i><span>Market</span></div>
+                                <div class="app-feature-icon"><i class="fas fa-satellite-dish"></i><span>Satellite</span></div>
+                            </div>
+                            <div style="background: rgba(255,255,255,0.18); padding: 12px; border-radius: 12px; margin-top: 15px; text-align:left;">
+                                <p style="font-size: 0.75rem; margin: 0 0 3px 0; opacity:0.9;">Latest Update:</p>
+                                <p style="font-size: 0.85rem; margin: 0; font-weight: bold;">Weather Alert - Rain expected tomorrow afternoon.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="floating-elements">
+                    <div class="floating-icon">🌾</div> <div class="floating-icon">📊</div>
+                    <div class="floating-icon">🛰️</div> <div class="floating-icon">💧</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="grass-divider"></div>
+
+    <section class="testimonials">
+        <div class="testimonials-container">
+            <h2><i class="fas fa-comments"></i> What Farmers Say</h2>
+            <div class="testimonial-carousel">
+                <div class="testimonial-track">
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card"><p>"With tools like Kisan Drishti, the future of farming is finally within reach. The insights are practical and easy to implement."</p><div class="author">Ramesh Singh, Farmer, Uttar Pradesh</div></div>
+                        <div class="testimonial-card"><p>"A much-needed platform for Indian farmers. I'm particularly excited about the disease detection feature. Can't wait for the launch!"</p><div class="author">Sunita Devi, Organic Farmer, Bihar</div></div>
+                        <div class="testimonial-card"><p>"It’s inspiring to see something made for young people who want to work in agriculture. The tech exposure is fantastic."</p><div class="author">Rohit Verma, Agri-Tech Student, Maharashtra</div></div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card"><p>"Technology like this will revolutionize how we approach farming in rural India. Kisan Drishti is a step in the right direction."</p><div class="author">Priya Sharma, Agricultural Extension Officer</div></div>
+                        <div class="testimonial-card"><p>"Finally, a solution that understands the needs of small-scale farmers. The market intelligence will be a game-changer for us."</p><div class="author">Gopal Yadav, Farmer, Rajasthan</div></div>
+                        <div class="testimonial-card"><p>"The youth engagement aspect makes this truly special. We need to attract bright minds to agriculture, and this platform helps."</p><div class="author">Dr. Anita Patel, Agricultural Researcher</div></div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card"><p>"Smart farming tools that actually make sense for Indian agriculture. The localized weather forecasts are incredibly useful."</p><div class="author">Vikram Singh, Progressive Farmer</div></div>
+                        <div class="testimonial-card"><p>"This platform could be the bridge between traditional wisdom and modern farming techniques. It respects both."</p><div class="author">Meera Krishnan, Agricultural Consultant</div></div>
+                        <div class="testimonial-card"><p>"Excited to see how this will help farmers make better, data-driven decisions and improve their livelihoods."</p><div class="author">Rajesh Kumar, Farming Cooperative Leader</div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="grass-divider"></div>
+
+    <section class="how-it-works" id="how-it-works">
+        <div class="how-container">
+            <h2><i class="fas fa-cogs"></i> How It Works</h2>
+            <div class="steps">
+                <div class="step animate-on-scroll"><div class="step-number">1</div><h3>Sign Up</h3><p>Register your interest via mobile, WhatsApp, or local support centers.</p></div>
+                <div class="step animate-on-scroll"><div class="step-number">2</div><h3>Input or Scan</h3><p>Upload your field details or crop images for analysis by our smart system.</p></div>
+                <div class="step animate-on-scroll"><div class="step-number">3</div><h3>Get Insights</h3><p>Receive real-time advice based on data, satellite monitoring, and expert models.</p></div>
+                <div class="step animate-on-scroll"><div class="step-number">4</div><h3>Take Action</h3><p>Use the insights to make smarter, more sustainable decisions for your farm.</p></div>
+                <div class="step animate-on-scroll"><div class="step-number">5</div><h3>Engage Youth</h3><p>Explore agriculture as a future-ready career with exposure to innovation and tech.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="grass-divider"></div>
+
+    <section class="faq">
+        <div class="faq-container">
+            <h2><i class="fas fa-question-circle"></i> Frequently Asked Questions</h2>
+            <div class="faq-item"><div class="faq-question" role="button" tabindex="0">When will the app be available?</div><div class="faq-answer"><p>We're actively developing it and aiming for a launch soon! Join our contact list or follow us on social media to be the first to know.</p></div></div>
+            <div class="faq-item"><div class="faq-question" role="button" tabindex="0">Will it support Hindi or local languages?</div><div class="faq-answer"><p>Absolutely! Multi-language support, including Hindi and other regional languages, is a core part of our mission to make Kisan Drishti accessible to all Indian farmers.</p></div></div>
+            <div class="faq-item"><div class="faq-question" role="button" tabindex="0">What if I'm not a farmer but want to get involved?</div><div class="faq-answer"><p>We welcome agri-enthusiasts, students, researchers, and organizations! Please reach out via our "Partner With Us" link or contact form. We're always looking for collaborators.</p></div></div>
+            <div class="faq-item"><div class="faq-question" role="button" tabindex="0">Will it work in low-connectivity areas?</div><div class="faq-answer"><p>Yes, this is a key consideration. The platform will include offline-first features for critical functionalities, designed specifically for rural connectivity challenges.</p></div></div>
+             <div class="faq-item"><div class="faq-question" role="button" tabindex="0">Is there a cost to use Kisan Drishti?</div><div class="faq-answer"><p>We are exploring various models to make it affordable and accessible. Some core features might be free, with premium options for advanced services. Details will be shared closer to launch.</p></div></div>
+        </div>
+    </section>
+
+    <div class="grass-divider"></div>
+
+    <section class="about" id="about">
+        <div class="about-container">
+            <h2><i class="fas fa-info-circle"></i> About Us</h2>
+            <div class="about-content">
+                <div class="about-card animate-on-scroll"><h3>Our Vision</h3><p>To democratize modern farming tools and ensure that every Indian farmer—regardless of location or farm size—has access to powerful insights for sustainable and profitable agriculture.</p></div>
+                <div class="about-card animate-on-scroll"><h3>Our Mission</h3><p>Kisan Drishti bridges the gap between traditional wisdom and digital empowerment, offering an intuitive platform that serves farmers, uplifts rural communities, and inspires youth to build a future in agriculture.</p></div>
+                <div class="about-card animate-on-scroll"><h3>A Platform for All Generations</h3><p>We unite generations by empowering experienced farmers with new tools and welcoming the next wave of agri-innovators with engaging, tech-forward learning opportunities.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="grass-divider"></div>
+
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <h2><i class="fas fa-headset"></i> Get In Touch</h2>
+            <div class="contact-info">
+                <div class="contact-item"><h3><i class="fas fa-envelope"></i> Email</h3><p><a href="mailto:contact@kisandrishti.in">contact@kisandrishti.in</a></p></div>
+                <div class="contact-item"><h3><i class="fas fa-phone"></i> Phone</h3><p><a href="tel:+919876543210">+91 7505969473</a></p></div>
+                <div class="contact-item"><h3><i class="fas fa-map-marker-alt"></i> Location</h3><p>Greater Noida, India (Serving Pan-India)</p></div>
+            </div>
+            <div style="margin-top: 2.5rem;">
+                <p style="font-size: 1.1rem; margin-bottom: 1.2rem;">Want to Collaborate or Learn More?</p>
+                <a href="mailto:partner@kisandrishti.in?subject=Partnership Inquiry - Kisan Drishti" class="cta-btn">Partner With Us</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="grass-divider"></div>
+
+    <section class="blog-placeholder">
+        <div>
+            <h2><i class="fas fa-newspaper"></i> Our Blog (Coming Soon)</h2>
+            <p>Stay tuned for agri-tech news, farming tips, success stories, and insights from rural India. We'll soon share knowledge, innovations, and community voices.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© <span id="currentYear"></span> Kisan Drishti. All Rights Reserved. | Smart Eyes for Smarter Farming.</p>
+        <p>Empowering Indian Agriculture, One Insight at a Time.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
